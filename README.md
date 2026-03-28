@@ -26,25 +26,10 @@
 
 ---
 
-## 📁 Project Structure
-
-FinTrack/
-│
-├── assets/           # CSS, JS, Images
-├── config/           # Database configuration
-├── includes/         # Reusable PHP components
-├── pages/            # Core application pages
-├── auth/             # Authentication system
-├── dashboard.php     # Main dashboard
-├── index.php         # Entry point
-└── database.sql      # Database schema
-
----
-
 ## ⚙️ Installation
 
 1. Clone the repository
-   git clone https://github.com/your-username/FinTrack.git
+   git clone https://github.com/Samar2442/fin-track.git
 
 2. Move to server directory
    C:\xampp\htdocs\FinTrack
@@ -70,17 +55,11 @@ FinTrack/
 
 ---
 
-## 📸 Screenshots
-
-(Add your UI screenshots here)
-
----
 
 ## 🔐 Security
 
 * Use password_hash() for storing passwords
 * Validate and sanitize all inputs
-* Use prepared statements (PDO / MySQLi)
 * Protect against SQL Injection
 
 ---
